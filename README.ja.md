@@ -88,6 +88,12 @@ proxconfの設定を記述しておくと、各種環境やコマンドの設定
 
 #### コマンド
 
+インストール時にオプションを指定する
+
+~~~~ shell
+  gem install [package] -p $http_proxy
+~~~~
+
 #### 設定ファイル
 
 ### Subversion

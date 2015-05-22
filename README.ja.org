@@ -51,6 +51,10 @@
 **** 設定ファイル
 *** gem
 **** コマンド
+     インストール時にオプションを指定する
+#+BEGIN_SRC shell
+  gem install [package] -p $http_proxy
+#+END_SRC
 **** 設定ファイル
 *** Subversion
 **** コマンド
