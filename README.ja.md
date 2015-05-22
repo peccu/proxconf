@@ -40,6 +40,26 @@ proxconfの設定を記述しておくと、各種環境やコマンドの設定
 
 各言語や環境毎に設定を調べ、記載する。Bashの設定を利用できるものは=$http<sub>proxy</sub>=を用いた設定方法を記載する。
 
+### Bash
+
+#### コマンド
+
+~~~~ shell
+  export http_proxy="http://proxyuser:proxypass@proxy.example.com:8080/"
+  export https_proxy="http://proxyuser:proxypass@proxy.example.com:8080/"
+  export ftp_proxy="ftp://proxyuser:proxypass@proxy.example.com:8080/"
+~~~~
+
+#### 設定ファイル
+
+.bashrcに下記内容を追加
+
+~~~~ shell
+  export http_proxy="http://proxyuser:proxypass@proxy.example.com:8080/"
+  export https_proxy="http://proxyuser:proxypass@proxy.example.com:8080/"
+  export ftp_proxy="ftp://proxyuser:proxypass@proxy.example.com:8080/"
+~~~~
+
 Contribution
 ------------
 
