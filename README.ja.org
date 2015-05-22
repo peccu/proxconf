@@ -73,4 +73,4 @@
 ** Contribution
    WIP
 ** License
-   WIP
+   MIT

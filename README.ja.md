@@ -127,4 +127,4 @@ WIP
 License
 -------
 
-WIP
+MIT
