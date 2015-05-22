@@ -104,7 +104,18 @@ proxconfの設定を記述しておくと、各種環境やコマンドの設定
 
 ### pear
 
+#### 確認
+
+~~~~ shell
+  % pear config-show|grep proxy
+  HTTP Proxy Server Address      http_proxy       http://proxy.example.com:8080/
+~~~~
+
 #### コマンド
+
+~~~~ shell
+  pear config-set http_proxy $http_proxy
+~~~~
 
 #### 設定ファイル
 

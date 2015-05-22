@@ -60,7 +60,15 @@
 **** コマンド
 **** 設定ファイル
 *** pear
+**** 確認
+#+BEGIN_SRC shell
+  % pear config-show|grep proxy
+  HTTP Proxy Server Address      http_proxy       http://proxy.example.com:8080/
+#+END_SRC
 **** コマンド
+#+BEGIN_SRC shell
+  pear config-set http_proxy $http_proxy
+#+END_SRC
 **** 設定ファイル
 ** Contribution
    WIP
