@@ -37,6 +37,27 @@
   export https_proxy="http://proxyuser:proxypass@proxy.example.com:8080/"
   export ftp_proxy="ftp://proxyuser:proxypass@proxy.example.com:8080/"
 #+END_SRC
+*** Zsh
+**** コマンド
+**** 設定ファイル
+*** Git
+**** コマンド
+**** 設定ファイル
+*** npm
+**** コマンド
+**** 設定ファイル
+*** bower
+**** コマンド
+**** 設定ファイル
+*** gem
+**** コマンド
+**** 設定ファイル
+*** Subversion
+**** コマンド
+**** 設定ファイル
+*** pear
+**** コマンド
+**** 設定ファイル
 ** Contribution
    WIP
 ** License
