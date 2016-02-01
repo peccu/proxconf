@@ -46,6 +46,15 @@
 *** npm
 **** コマンド
 **** 設定ファイル
+     .npmrcに下記内容を追加する。
+
+     下記の順に読み込み上書きする。(カレントはよくわからん)
+     システム→ホームディレクトリ→プロジェクトディレクトリ→カレントディレクトリ
+#+BEGIN_SRC conf
+  proxy=http://proxy.example.com:8080
+  https-proxy=http://proxy.example.com:8080
+  registry=http://registry.npmjs.org/
+#+END_SRC
 *** bower
 **** コマンド
 **** 設定ファイル
